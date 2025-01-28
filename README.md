@@ -6,5 +6,4 @@ A new Flutter project.
 
 This is the firebase database to store the data.
 
-![Screenshot 2025-01-29 003053](https://github.com/user-attachments/assets/4b54a1b6-6f04-40bb-a161-5163639b86cd)
-
+![Screenshot 2025-01-29 003158](https://github.com/user-attachments/assets/91304a83-0dda-445f-a986-f3d609e0170e)
