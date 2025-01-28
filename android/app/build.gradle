@@ -1,0 +1,40 @@
+plugins {
+    id("com.android.application")
+    id 'kotlin-android'
+    id("com.google.gms.google-services") // Add this line for Firebase integration
+}
+
+android {
+    namespace 'com.example.flutter_increment_app'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.flutter_increment_app" // Keep this consistent with your Firebase setup
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:33.8.0")) // Firebase BOM for versioning
+    implementation("com.google.firebase:firebase-analytics") // Firebase Analytics
+    implementation 'com.google.firebase:firebase-firestore' // Firestore
+}

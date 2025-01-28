@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14537987119",
+    "project_id": "flutter-increment-app",
+    "storage_bucket": "flutter-increment-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14537987119:android:53092a4bbbf0aa998c22da",
+        "android_client_info": {
+          "package_name": "com.example.flutter_increment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LRLGAoycsGrMKfaoFQfySQf4w4vKtpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
